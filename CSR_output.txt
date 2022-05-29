@@ -1,0 +1,14 @@
+19:54:22.425 -> ECCX08 Serial Number = 0123DC8B17976677EE
+19:54:22.425 -> 
+19:54:22.425 -> Hi there, in order to generate a new self signed cert for your board, we'll need the following information ...
+19:54:22.425 -> 
+19:54:22.425 -> Please enter the issue year of the certificate? (2000 - 2031) [2019]: 2019
+20:01:03.854 -> Please enter the issue month of the certificate? (1 - 12) [1]: 1
+20:01:23.939 -> Please enter the issue day of the certificate? (1 - 31) [1]: 1
+20:01:30.296 -> Please enter the issue hour of the certificate? (0 - 23) [0]: 0
+20:01:32.872 -> Please enter how many years the certificate is valid for? (1 - 31) [31]: 31
+20:01:36.292 -> What slot would you like to use for the private key? (0 - 4) [0]: 0
+20:02:00.894 -> What slot would you like to use for storage? (8 - 15) [8]: 8
+20:02:04.834 -> Would you like to generate a new private key? (Y/n) [Y]: Y
+20:02:14.482 -> 
+20:02:15.098 -> Here's your self signed cert, enjoy!
