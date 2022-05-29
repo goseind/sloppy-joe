@@ -1,4 +1,4 @@
-# Sloppy Joe - Arduino based Turtlebot connected via MQTT
+# 🤖🌭 Sloppy Joe - Arduino based Turtlebot connected via MQTT
 
 Since the *origianl* [Turtlebot](https://www.turtlebot.com/) isn't quite cheap, my idea was to build a even cheaper version based on Arduino using Azure IoT or any other MQTT cloud provider to do *difficult* calculations, using the Arduino only to control the attached hardware.
 
