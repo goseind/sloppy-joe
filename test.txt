@@ -1,1 +1,1 @@
-SharedAccessSignature sr=sloppy-joe-test.azure-devices.net%2Fdevices%2Fmkr1010-test&sig=cHKcvka5KvQIkaFDSF0oI7ZfRCcjU0PWlZlx2vBaAa8%3D&se=1653844238
+SharedAccessSignature sr=sloppy-joe-test-again.azure-devices.net%2Fdevices%2Fmk1010-test-again&sig=zTQaLOpIzqlXDe6I8rYLOYk6YC9XwEnM4NDUy06ppus%3D&se=1653849360
