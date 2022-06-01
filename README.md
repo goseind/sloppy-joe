@@ -2,6 +2,8 @@
 
 Since the *origianl* [Turtlebot](https://www.turtlebot.com/) isn't quite cheap, the idea was to build an even cheaper version based on Arduino/ESP32 using Azure IoT or any other MQTT cloud provider to do *difficult* calculations like object recognition, using the boards only to control the attached hardware.
 
+![](prototype.jpg)
+
 ## Hardware
 
 * [Arduino MKR 1010 WiFi](https://store.arduino.cc/products/arduino-mkr-wifi-1010)
