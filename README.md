@@ -1,5 +1,7 @@
 # 🤖🌭 Sloppy Joe - The cheap Turtlebot with Object Recognition
 
+![CI](https://github.com/goseind/sloppy-joe/actions/workflows/main.yml/badge.svg)
+
 Since the *origianl* [Turtlebot](https://www.turtlebot.com/) isn't quite cheap, the idea was to build an even cheaper version based on Arduino/ESP32 using Azure IoT or any other MQTT cloud provider to do *difficult* calculations like object recognition, using the boards only to control the attached hardware.
 
 ![](prototype.jpg)
