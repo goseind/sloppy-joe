@@ -20,7 +20,9 @@ jobs:
           libraries: |
             - name: ArduinoBearSSL
             - name: ArduinoECCX08
-            #- name: utility/ECCX08SelfSignedCert
+            - name: utility/ECCX08SelfSignedCert
+              "- source-url: https://github.com/arduino-libraries/ArduinoECCX08"
+              "- source-path: src/utility"
             - name: ArduinoMqttClient
             - name: WiFiNINA
           sketch-paths:
