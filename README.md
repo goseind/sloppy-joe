@@ -20,6 +20,24 @@ The Arduino and ESP are connected as a device to Azure IoT Hub via MQTT, as show
 
 ![](sloppy-joe.drawio.svg)
 
+### ESP32-CAM Setup
+
+1. Connect `IOO` and `GND` pin for flashing with jumper
+2. Build image
+3. Upload image
+4. Disconnect jumper and reset board with button
+5. Open monitor
+6. Press reset button again and you should see:
+
+```bash
+WiFi connected
+Camera Ready! Use 'http://192.168.178.43' to connect
+```
+
+7. Open address in browser and click start stream
+
+![](stream.png)
+
 ### Connection Diagram
 
 tbd --> https://fritzing.org/
