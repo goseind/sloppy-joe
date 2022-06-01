@@ -24,4 +24,4 @@ jobs:
             - name: ArduinoMqttClient
             - name: WiFiNINA
           sketch-paths:
-            "- devices/arduino"
+            "- devices/mkr1010"
