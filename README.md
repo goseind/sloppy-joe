@@ -1,13 +1,14 @@
-# 🤖🌭 Sloppy Joe - Arduino based Turtlebot connected via MQTT
+# 🤖🌭 Sloppy Joe - The cheap Turtlebot with Object Recognition
 
-Since the *origianl* [Turtlebot](https://www.turtlebot.com/) isn't quite cheap, my idea was to build a even cheaper version based on Arduino using Azure IoT or any other MQTT cloud provider to do *difficult* calculations, using the Arduino only to control the attached hardware.
+Since the *origianl* [Turtlebot](https://www.turtlebot.com/) isn't quite cheap, the idea was to build an even cheaper version based on Arduino/ESP32 using Azure IoT or any other MQTT cloud provider to do *difficult* calculations like object recognition, using the boards only to control the attached hardware.
 
-## Components
+## Hardware
 
 * [Arduino MKR 1010 WiFi](https://store.arduino.cc/products/arduino-mkr-wifi-1010)
 * L298N Motor Driver
 * DC Motor + Wheels
-* Arduino Cam (not yet implemented)
+* ESP32-CAM
+* LiPo Batteries + Stepper
 
 ### Price List & Total Price
 
@@ -15,7 +16,9 @@ tbd
 
 ## Documentation
 
-The Arduino is connected as a device to Azure IoT Hub via MQTT.
+The Arduino and ESP are connected as a device to Azure IoT Hub via MQTT, as shown in the below drawing:
+
+![](sloppy-joe.drawio.svg)
 
 ### Connection Diagram
 
